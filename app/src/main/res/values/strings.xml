@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Single Screen App</string>
+    <string name="come">COME AND JOIN US!</string>
+    <string name="phoenix">PHOENIX</string>
+    <string name="lacrosse">LACROSSE</string>
+    <string name="club">CLUB</string>
+    <string name="training">Training time : on Mondays at 7:30pm</string>
+    <string name="adress">Stade Jean Moulin, 131 Boulevard Washington, Suresnes</string>
+    <string name="phone">+33 7 86 55 59 55</string>
+    <string name="email">club.phoenixlacrosse@gmail.com</string>
+    <string name="langage">We speak: French and English</string>
+    <string name="transport">Transports: - Train: L, N - Tram: T2 </string>
+</resources>

@@ -1,0 +1,151 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="team">
+        <item name="android:layout_width">480dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="come">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/come</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">@dimen/text_tittle</item>
+        <item name="android:textColor">@color/colorcome</item>
+        <item name="android:layout_alignBottom">@id/team</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:padding">@dimen/padding_come</item>
+    </style>
+
+    <style name="logo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/team</item>
+    </style>
+
+    <style name="phoenix">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/phoenix</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">@dimen/text_tittle</item>
+        <item name="android:textColor">@color/colortitle</item>
+        <item name="android:layout_below">@id/team</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:padding">@dimen/padding_tittle</item>
+        <item name="android:layout_marginRight">@dimen/marging_phoenix</item>
+    </style>
+
+    <style name="lacrosse">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/lacrosse</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">@dimen/text_tittle</item>
+        <item name="android:textColor">@color/colortitle</item>
+        <item name="android:layout_below">@id/phoenix</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:padding">@dimen/padding_tittle</item>
+        <item name="android:layout_marginRight">@dimen/marging_lacrosse</item>
+    </style>
+
+    <style name="club">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/club</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">@dimen/text_tittle</item>
+        <item name="android:textColor">@color/colortitle</item>
+        <item name="android:layout_below">@id/Lacrosse</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:padding">@dimen/padding_tittle</item>
+        <item name="android:layout_marginRight">@dimen/marging_club</item>
+    </style>
+
+    <style name="training">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableLeft">@drawable/ic_fitness_center_white_24dp</item>
+        <item name="android:text">@string/training</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginTop">@dimen/marging_text</item>
+    </style>
+
+    <style name="adress">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableLeft">@drawable/ic_room_white_24dp</item>
+        <item name="android:text">@string/adress</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginTop">@dimen/marging_text</item>
+    </style>
+
+    <style name="phone">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableLeft">@drawable/ic_phone_white_24dp</item>
+        <item name="android:text">@string/phone</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginTop">@dimen/marging_text</item>
+    </style>
+
+    <style name="email">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableLeft">@drawable/ic_mail_outline_white_24dp</item>
+        <item name="android:text">@string/email</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginTop">@dimen/marging_text</item>
+    </style>
+
+    <style name="langage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableLeft">@drawable/ic_description_white_24dp</item>
+        <item name="android:text">@string/langage</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginTop">@dimen/marging_text</item>
+    </style>
+
+    <style name="transport">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableLeft">@drawable/ic_train_white_24dp</item>
+        <item name="android:text">@string/transport</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginTop">@dimen/marging_text</item>
+    </style>
+
+    <style name="layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+</resources>

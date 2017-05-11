@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    style="@style/layout"
+    tools:context="com.example.android.singlescreenapp.MainActivity">
+
+    <ImageView
+        android:id="@+id/team"
+        android:src="@drawable/team"
+        style="@style/team"/>
+
+    <TextView
+        android:id="@+id/come"
+        style="@style/come"/>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:src="@drawable/phoenixlacrosse1"
+        style="@style/logo"/>
+
+    <TextView
+        android:id="@+id/phoenix"
+        style="@style/phoenix"/>
+
+    <TextView
+        android:id="@+id/Lacrosse"
+        style="@style/lacrosse"/>
+
+    <TextView
+        android:id="@+id/Club"
+        style="@style/club"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Club">
+
+        <LinearLayout
+            style="@style/layout"
+            android:orientation="vertical"
+            android:background="@drawable/bg">
+
+            <TextView
+                android:id="@+id/training"
+                style="@style/training"/>
+
+            <TextView
+                android:id="@+id/adress"
+                style="@style/adress"/>
+
+            <TextView
+                android:id="@+id/phone"
+                style="@style/phone"/>
+
+            <TextView
+                android:id="@+id/email"
+                style="@style/email"/>
+
+            <TextView
+                android:id="@+id/langage"
+                style="@style/langage"/>
+
+            <TextView
+                android:id="@+id/transport"
+                style="@style/transport"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
